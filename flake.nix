@@ -2,7 +2,7 @@
   description = "A Nix-flake-based Node.js development environment";
 
   inputs = {
-    nixpkgs.url = "https://mirrors.ustc.edu.cn/nix-channels/nixos-23.11/nixexprs.tar.xz"; # 使用镜像地址
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable"
   };
 
   outputs = {
